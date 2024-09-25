@@ -1,12 +1,14 @@
 import { configureStore } from "@reduxjs/toolkit";
 import MovieReducer from "./MovieSlice";
-import TrailerReducer from "./TrailerSlice";
+// import TrailerReducer from "./TrailerSlice";
 import SeriesReducer from "./SeriesSlice";
+import LangReducer from "./langSlice" ;
 
 const appStore = configureStore({
     reducer:{
        movies: MovieReducer,
-       series:SeriesReducer
+       series:SeriesReducer,
+       lang:LangReducer
     }
 })
 

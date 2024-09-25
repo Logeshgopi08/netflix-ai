@@ -1,8 +1,8 @@
-import usePopularSeries from "../hooks/seriesApi/usePopularSeries";
-import FirstContainer from "./FirstContainer";
-import Header from "./Header";
-// import MainContainer from "./MainContainer";
-import SecondContainer from "./SecondContainer";
+// import usePopularSeries from "../hooks/seriesApi/usePopularSeries";
+// import FirstContainer from "./FirstContainer";
+// import Header from "./Header";
+// // import MainContainer from "./MainContainer";
+// import SecondContainer from "./SecondContainer";
 
 const TvSeries = ()=>{
 
